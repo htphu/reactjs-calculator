@@ -21,9 +21,6 @@ function App() {
 
   const calculate = () =>{
     setCalc(eval(calc).toString());
-    if(calc === '0'){
-      setResult('0');
-    }
   }
 
   const deleteLast = () =>{
